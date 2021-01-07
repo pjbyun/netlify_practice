@@ -5,7 +5,8 @@ import './App.css';
 function App() {
   return (
       <>
-      <Fetch/>
+        <div data-netlify-identity-menu></div>
+        <Fetch/>
       </>
   );
 }
